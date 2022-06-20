@@ -1,0 +1,64 @@
+<!--
+    Camily Pereira Albres
+    Izabelly Muchoskloki
+    Gustavo Fiori
+    Mateus Maricimiano
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src=https://code.jquery.com/jquery-3.6.0.js></script>
+    <link rel="stylesheet" href="style.css"></link>
+    <title>Champions League</title>
+</head>
+
+<body background="./imagens/champions2.jpg" style = "background-position: -60% 80%;">
+    <header class="container">
+        <img class="logo" src="">
+        <nav>
+            <ul class="item">
+                <li> <a href="index.html"> cadastro de campeões</a></li>
+                <li> <a href="readChampions.html"> Lista de finais </a></li>
+                <li> <a href="videoPage.html"> Link youtube </a></li>
+                <li> <a href="imagesPage.html"> Imagens </a></li>
+            </ul>
+    </header>
+    </nav>
+
+    <div class=container-form>
+
+        <form class="form">
+            <div class="ident-field">
+                <placeholder> Ano: </placeholder>
+                <input id="ano" type="text"  placeholder="ano"></input>
+            </div>
+            <div class="ident-field">
+                <placeholder> Equipes: </placeholder>
+                <input id="equipes" type="text" placeholder="equipes"></input>
+            </div>
+            <div class="ident-field">
+                <placeholder> Placar: </placeholder>
+                <input id="placar" type="text" placeholder="placar"></input>
+            </div>
+            <div class="ident-field">
+                <placeholder> vencedor: </placeholder>
+                <input id="vencedor" type="text" placeholder="vencedor"> </input>
+            </div>
+            <div class="ident-field">
+                <placeholder> país sede: </placeholder>
+                <input id="pais_sede" type="text" placeholder="país sede"> </input>
+            </div>
+            
+            <button type="submit" onclick="gravar()">Gravar</button>
+
+        </form>
+    </div>
+    <script src="main.js" defer> </script>
+</body>
+
+</html>
